@@ -1,0 +1,138 @@
+header{
+	color: white;
+	background-color: rgb(54, 124, 57); 
+	font-size: 20px;
+	height: 20px; 
+	padding: 10px;
+}
+
+.topnav{
+	font-family: Calibri;
+	color: white;
+	background-color: rgb(54, 124, 57); 
+	font-size: 20px;
+	height: 35px; 
+	padding: 15px;
+}
+
+.topnav a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+
+.topnav a:hover {
+    background-color: rgb(242, 255, 230);
+    color: black;
+}
+
+.dropdown-cat, .dropdown-floor, .dropdown-zone, #homebtn {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-cat:hover .dropdown-content, 
+.dropdown-floor:hover .dropdown-content, 
+.dropdown-zone:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	background-color: rgb(242, 255, 230);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+	background-color: rgb(184, 184, 148);
+    color: black;
+}
+
+div.container{
+	margin: auto;
+	width: 800px;
+    padding: 10px;
+	background-color: rgb(242, 255, 230);
+}
+
+table{
+	font-family: Calibri;
+	border-collapse: collapse;
+	border-color: rgb(242, 255, 230);
+	border-bottom: 4px solid rgb(54, 124, 57);
+	margin: auto;
+	width: 750px;
+}
+
+.hoverabletd:hover{
+	background-color: rgb(184, 184, 148);
+	
+}
+
+h1{
+	color: rgb(54, 124, 57);
+}
+
+body{
+	 margin: 0px;
+}
+
+th{
+	color: white;
+	background-color: rgb(54, 124, 57);
+	border: 1px solid rgb(242, 255, 230);
+	text-align: center;
+	padding: 10px;
+}
+
+td{
+	border: 1px solid rgb(54, 124, 57);
+	padding: 10px;
+	background-color: white;
+}
+
+#directoryHeader{
+	font-size: 20px;
+	height: 20px; 
+	padding: 10px;
+}
+
+#hi{
+	padding-left: 30px;
+}
+
+#logout{
+	padding-left: 5px;
+	color: yellow; 
+}
+
+#addTenant{
+	margin-left: 30px;
+}
+
+#searchInput{
+	font-size:16px;
+}
+
+#backbtn{
+	padding: 5px;
+	margin: 5px;
+	width: 80px;
+}
+
+
+
+
+
+
+
